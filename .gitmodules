@@ -1,0 +1,3 @@
+[submodule "nodeJunkServer"]
+	path = nodeJunkServer
+	url = https://github.com/CrubeYawne/nodeJunkServer.git
