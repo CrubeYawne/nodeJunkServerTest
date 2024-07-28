@@ -1,6 +1,5 @@
 // Import the HTTP module
-import junkServer from './junkServer.js';
-
+import junkServer from './junkServer-lib/junkServer.js';
 
 const port = 9000;
 
