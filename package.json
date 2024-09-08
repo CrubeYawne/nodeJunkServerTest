@@ -5,15 +5,16 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon ./index.js",
-    "start": "node ./inde.js"
+    "dev": "nodemon -r dotenv/config ./index.js",
+    "start": "node ./index.js"
   },  
   "author": "",
   "license": "ISC",
   "dependencies": {    
   },
   "devDependencies": {    
-    "nodemon": "^3.1.4"
+    "nodemon": "^3.1.4",
+    "dotenv": "^16.4.5"    
   }
 
 }

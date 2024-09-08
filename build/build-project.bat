@@ -1,0 +1,1 @@
+call compose-build nodejunkservertest
